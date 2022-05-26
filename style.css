@@ -58,7 +58,7 @@ body {
 
 body .logo {
   color: var(--primary-color);
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 body .logo span {
@@ -303,7 +303,7 @@ body.menu-expanded button {
 
 body.menu-expanded .logo {
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 body.menu-expanded .logo span {
