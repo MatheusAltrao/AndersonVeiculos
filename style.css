@@ -496,12 +496,13 @@ body.menu-expanded button path {
 #contact .buttons-contact {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  gap: 1rem 8rem;
+  gap: 1rem 4rem;
+  justify-content: center;
 }
 
 #contact .buttons-contact .button {
   width: 18rem;
+  box-shadow: 0 0.5em 1.2em #0004;
 }
 
 #contact .buttons-contact .button:hover {
@@ -830,6 +831,11 @@ footer .social-links {
 
   #contact h2 {
     width: 40.4rem;
+  }
+
+  #contact .buttons-contact {
+    flex-wrap: wrap;
+    width: 80%;
   }
 
   /* ================ FOOTER ===================== */
