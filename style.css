@@ -498,6 +498,7 @@ body.menu-expanded button path {
   flex-wrap: wrap;
   gap: 1rem 4rem;
   justify-content: center;
+  align-items: center;
 }
 
 #contact .buttons-contact .button {
