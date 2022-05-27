@@ -33,10 +33,10 @@ function activateMenuAtCurrentSection(section) {
 }
 
 function showNavOnScroll() {
-  if (scrollY > 0) {
-    navigation.classList.add('scroll')
+  if ($(document).scrollTop() > 50) {
+    $('nav').addClass('scroll')
   } else {
-    navigation.classList.remove('scroll')
+    $('nav').removeClass('scroll')
   }
 }
 
